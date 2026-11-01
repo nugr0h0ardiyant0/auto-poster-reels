@@ -1,0 +1,77 @@
+{
+  "judul": "Pesan dari Nomor Lama",
+  "hook": "Pesan itu datang tengah malam, dari nomor sahabatmu yang hilang dua tahun lalu.",
+  "tempo": 1.04,
+  "scenes": [
+    {
+      "adegan": "kunci",
+      "narasi": "Pesan itu datang tengah malam. Dari nomor yang sudah dua tahun tidak aktif. Nomor Raka. Sahabatmu, yang hilang dua tahun lalu, dan tidak pernah ditemukan. Kamu sudah lama berhenti berharap.",
+      "teks_layar": "Dari nomor yang sudah mati"
+    },
+    {
+      "adegan": "riwayat",
+      "narasi": "Kamu membuka obrolan itu. Pesan terakhir Raka masih ada di sana. Aku di kamarmu. Cepat pulang. Malam itu kamu pulang. Kamarmu kosong. Jendelanya terkunci dari dalam. Polisi mencarinya berminggu-minggu. Tidak ada yang pernah melihatnya lagi.",
+      "teks_layar": "Pesan terakhirnya, dua tahun lalu"
+    },
+    {
+      "adegan": "foto1",
+      "narasi": "Sekarang, di bawah pesan itu, ada pesan baru. Isinya cuma satu foto. Foto itu terbuka pelan-pelan. Kamar tidurmu.",
+      "teks_layar": "Satu foto baru"
+    },
+    {
+      "adegan": "dari_lemari",
+      "narasi": "Foto itu diambil dari sudut yang tidak mungkin. Dari dalam lemari, dengan pintu sedikit terbuka. Dan di ranjang itu, ada yang sedang tidur. Kamu.",
+      "teks_layar": "Diambil dari dalam lemari"
+    },
+    {
+      "adegan": "lemari",
+      "narasi": "Kamu menoleh ke lemari di sudut kamar. Pintunya sedikit terbuka. Persis seperti di foto. Celah gelap di antara kedua pintunya seperti sedang menatapmu. Padahal kamu yakin, sebelum tidur, pintu itu tertutup rapat.",
+      "teks_layar": "Persis seperti di foto"
+    },
+    {
+      "adegan": "senter",
+      "narasi": "Kamu menyalakan senter ponsel. Kamu melangkah pelan, lalu menarik pintunya. Hanya baju. Gantungan yang bergoyang pelan. Tidak ada siapa-siapa. Kamu menutupnya kembali, kali ini sampai rapat.",
+      "teks_layar": "Kosong"
+    },
+    {
+      "adegan": "foto2",
+      "narasi": "Kamu menghela napas. Mungkin ini cuma iseng. Mungkin nomor itu sudah dipakai orang lain. Lalu ponselmu bergetar lagi. Foto kedua.",
+      "teks_layar": "Foto kedua"
+    },
+    {
+      "adegan": "kolong",
+      "narasi": "Kali ini, kamu yang ada di foto. Berdiri di depan lemari, memegang senter. Diambil beberapa detik yang lalu. Dari bawah ranjang.",
+      "teks_layar": "Diambil dari bawah ranjang"
+    },
+    {
+      "adegan": "panggil",
+      "narasi": "Tanganmu gemetar. Kamu menekan tombol panggil. Nada sambung pertama. Nada sambung kedua. Nada sambung ketiga.",
+      "teks_layar": "Memanggil Raka"
+    },
+    {
+      "adegan": "dering",
+      "narasi": "Lalu kamu mendengarnya. Sebuah ponsel berdering. Pelan sekali. Dari bawah ranjangmu.",
+      "teks_layar": "Dari bawah ranjangmu"
+    },
+    {
+      "adegan": "lorong",
+      "narasi": "Kamu tidak berani menunduk. Kamu berlari keluar kamar. Lorong rumah gelap gulita. Lampu di ujungnya berkedip, lalu padam. Dering itu berhenti. Rumah kembali sunyi. Lalu dari kamarmu, terdengar pintu lemari. Pelan. Menutup.",
+      "teks_layar": "Rumah kembali sunyi"
+    },
+    {
+      "adegan": "foto3",
+      "narasi": "Ponselmu bergetar di genggaman. Foto ketiga. Lorong ini. Punggungmu. Diambil dari jarak yang sangat dekat. Padahal tidak ada siapa pun di lorong ini selain kamu.",
+      "teks_layar": "Dari jarak yang sangat dekat"
+    },
+    {
+      "adegan": "mengetik",
+      "narasi": "Kamu berhenti. Napasmu tertahan. Di layar, nomor itu sedang mengetik. Satu pesan baru. Hanya tiga kata.",
+      "teks_layar": "Sedang mengetik"
+    },
+    {
+      "adegan": "akhir",
+      "narasi": "Jangan lihat ke belakang.",
+      "teks_layar": "Jangan lihat ke belakang"
+    }
+  ]
+}

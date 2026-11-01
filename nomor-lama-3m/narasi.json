@@ -1,0 +1,527 @@
+{
+ "sidik": "8cb7a08c9879f59ac96b02538bfedc07ca6bb6b8",
+ "judul": "Pesan dari Nomor Lama",
+ "durasi": 176.64,
+ "awal": 1.0,
+ "akhir_suara": 173.635,
+ "kalimat": [
+  {
+   "teks": "Pesan itu datang tengah malam.",
+   "scene": 0,
+   "mulai": 1.102,
+   "selesai": 2.445
+  },
+  {
+   "teks": "Dari nomor yang sudah dua tahun tidak aktif.",
+   "scene": 0,
+   "mulai": 3.527,
+   "selesai": 5.335
+  },
+  {
+   "teks": "Nomor Raka.",
+   "scene": 0,
+   "mulai": 6.347,
+   "selesai": 6.973
+  },
+  {
+   "teks": "Sahabatmu, yang hilang dua tahun lalu, dan tidak pernah ditemukan.",
+   "scene": 0,
+   "mulai": 7.996,
+   "selesai": 11.671
+  },
+  {
+   "teks": "Kamu sudah lama berhenti berharap.",
+   "scene": 0,
+   "mulai": 12.681,
+   "selesai": 14.154
+  },
+  {
+   "teks": "Kamu membuka obrolan itu.",
+   "scene": 1,
+   "mulai": 15.13,
+   "selesai": 16.727
+  },
+  {
+   "teks": "Pesan terakhir Raka masih ada di sana.",
+   "scene": 1,
+   "mulai": 17.68,
+   "selesai": 19.433
+  },
+  {
+   "teks": "Aku di kamarmu.",
+   "scene": 1,
+   "mulai": 20.328,
+   "selesai": 21.116
+  },
+  {
+   "teks": "Cepat pulang.",
+   "scene": 1,
+   "mulai": 22.129,
+   "selesai": 22.806
+  },
+  {
+   "teks": "Malam itu kamu pulang.",
+   "scene": 1,
+   "mulai": 23.731,
+   "selesai": 24.716
+  },
+  {
+   "teks": "Kamarmu kosong.",
+   "scene": 1,
+   "mulai": 25.723,
+   "selesai": 26.596
+  },
+  {
+   "teks": "Jendelanya terkunci dari dalam.",
+   "scene": 1,
+   "mulai": 27.567,
+   "selesai": 29.107
+  },
+  {
+   "teks": "Polisi mencarinya berminggu-minggu.",
+   "scene": 1,
+   "mulai": 30.101,
+   "selesai": 31.686
+  },
+  {
+   "teks": "Tidak ada yang pernah melihatnya lagi.",
+   "scene": 1,
+   "mulai": 32.698,
+   "selesai": 34.389
+  },
+  {
+   "teks": "Sekarang, di bawah pesan itu, ada pesan baru.",
+   "scene": 2,
+   "mulai": 35.395,
+   "selesai": 37.72
+  },
+  {
+   "teks": "Isinya cuma satu foto.",
+   "scene": 2,
+   "mulai": 38.629,
+   "selesai": 39.735
+  },
+  {
+   "teks": "Foto itu terbuka pelan-pelan.",
+   "scene": 2,
+   "mulai": 40.716,
+   "selesai": 42.14
+  },
+  {
+   "teks": "Kamar tidurmu.",
+   "scene": 2,
+   "mulai": 43.013,
+   "selesai": 43.808
+  },
+  {
+   "teks": "Foto itu diambil dari sudut yang tidak mungkin.",
+   "scene": 3,
+   "mulai": 44.837,
+   "selesai": 47.086
+  },
+  {
+   "teks": "Dari dalam lemari, dengan pintu sedikit terbuka.",
+   "scene": 3,
+   "mulai": 48.193,
+   "selesai": 50.865
+  },
+  {
+   "teks": "Dan di ranjang itu, ada yang sedang tidur.",
+   "scene": 3,
+   "mulai": 51.84,
+   "selesai": 54.028
+  },
+  {
+   "teks": "Kamu.",
+   "scene": 3,
+   "mulai": 55.015,
+   "selesai": 55.342
+  },
+  {
+   "teks": "Kamu menoleh ke lemari di sudut kamar.",
+   "scene": 4,
+   "mulai": 56.346,
+   "selesai": 58.418
+  },
+  {
+   "teks": "Pintunya sedikit terbuka.",
+   "scene": 4,
+   "mulai": 59.357,
+   "selesai": 60.627
+  },
+  {
+   "teks": "Persis seperti di foto.",
+   "scene": 4,
+   "mulai": 61.637,
+   "selesai": 62.978
+  },
+  {
+   "teks": "Celah gelap di antara kedua pintunya seperti sedang menatapmu.",
+   "scene": 4,
+   "mulai": 63.998,
+   "selesai": 66.965
+  },
+  {
+   "teks": "Padahal kamu yakin, sebelum tidur, pintu itu tertutup rapat.",
+   "scene": 4,
+   "mulai": 68.024,
+   "selesai": 71.868
+  },
+  {
+   "teks": "Kamu menyalakan senter ponsel.",
+   "scene": 5,
+   "mulai": 72.947,
+   "selesai": 74.702
+  },
+  {
+   "teks": "Kamu melangkah pelan, lalu menarik pintunya.",
+   "scene": 5,
+   "mulai": 75.733,
+   "selesai": 77.891
+  },
+  {
+   "teks": "Hanya baju.",
+   "scene": 5,
+   "mulai": 78.838,
+   "selesai": 79.528
+  },
+  {
+   "teks": "Gantungan yang bergoyang pelan.",
+   "scene": 5,
+   "mulai": 80.524,
+   "selesai": 81.875
+  },
+  {
+   "teks": "Tidak ada siapa-siapa.",
+   "scene": 5,
+   "mulai": 82.891,
+   "selesai": 83.98
+  },
+  {
+   "teks": "Kamu menutupnya kembali, kali ini sampai rapat.",
+   "scene": 5,
+   "mulai": 85.016,
+   "selesai": 87.409
+  },
+  {
+   "teks": "Kamu menghela napas.",
+   "scene": 6,
+   "mulai": 88.478,
+   "selesai": 89.543
+  },
+  {
+   "teks": "Mungkin ini cuma iseng.",
+   "scene": 6,
+   "mulai": 90.558,
+   "selesai": 91.774
+  },
+  {
+   "teks": "Mungkin nomor itu sudah dipakai orang lain.",
+   "scene": 6,
+   "mulai": 92.79,
+   "selesai": 94.447
+  },
+  {
+   "teks": "Lalu ponselmu bergetar lagi.",
+   "scene": 6,
+   "mulai": 95.465,
+   "selesai": 97.078
+  },
+  {
+   "teks": "Foto kedua.",
+   "scene": 6,
+   "mulai": 98.122,
+   "selesai": 98.771
+  },
+  {
+   "teks": "Kali ini, kamu yang ada di foto.",
+   "scene": 7,
+   "mulai": 99.701,
+   "selesai": 101.725
+  },
+  {
+   "teks": "Berdiri di depan lemari, memegang senter.",
+   "scene": 7,
+   "mulai": 102.625,
+   "selesai": 104.927
+  },
+  {
+   "teks": "Diambil beberapa detik yang lalu.",
+   "scene": 7,
+   "mulai": 105.878,
+   "selesai": 107.434
+  },
+  {
+   "teks": "Dari bawah ranjang.",
+   "scene": 7,
+   "mulai": 108.436,
+   "selesai": 109.351
+  },
+  {
+   "teks": "Tanganmu gemetar.",
+   "scene": 8,
+   "mulai": 110.33,
+   "selesai": 111.181
+  },
+  {
+   "teks": "Kamu menekan tombol panggil.",
+   "scene": 8,
+   "mulai": 112.114,
+   "selesai": 113.435
+  },
+  {
+   "teks": "Nada sambung pertama.",
+   "scene": 8,
+   "mulai": 114.431,
+   "selesai": 115.512
+  },
+  {
+   "teks": "Nada sambung kedua.",
+   "scene": 8,
+   "mulai": 116.439,
+   "selesai": 117.447
+  },
+  {
+   "teks": "Nada sambung ketiga.",
+   "scene": 8,
+   "mulai": 118.374,
+   "selesai": 119.441
+  },
+  {
+   "teks": "Lalu kamu mendengarnya.",
+   "scene": 9,
+   "mulai": 120.407,
+   "selesai": 121.522
+  },
+  {
+   "teks": "Sebuah ponsel berdering.",
+   "scene": 9,
+   "mulai": 122.408,
+   "selesai": 123.628
+  },
+  {
+   "teks": "Pelan sekali.",
+   "scene": 9,
+   "mulai": 124.631,
+   "selesai": 125.17
+  },
+  {
+   "teks": "Dari bawah ranjangmu.",
+   "scene": 9,
+   "mulai": 126.09,
+   "selesai": 127.126
+  },
+  {
+   "teks": "Kamu tidak berani menunduk.",
+   "scene": 10,
+   "mulai": 128.138,
+   "selesai": 129.347
+  },
+  {
+   "teks": "Kamu berlari keluar kamar.",
+   "scene": 10,
+   "mulai": 130.479,
+   "selesai": 132.109
+  },
+  {
+   "teks": "Lorong rumah gelap gulita.",
+   "scene": 10,
+   "mulai": 133.108,
+   "selesai": 134.309
+  },
+  {
+   "teks": "Lampu di ujungnya berkedip, lalu padam.",
+   "scene": 10,
+   "mulai": 135.299,
+   "selesai": 137.416
+  },
+  {
+   "teks": "Dering itu berhenti.",
+   "scene": 10,
+   "mulai": 138.331,
+   "selesai": 139.285
+  },
+  {
+   "teks": "Rumah kembali sunyi.",
+   "scene": 10,
+   "mulai": 140.261,
+   "selesai": 141.377
+  },
+  {
+   "teks": "Lalu dari kamarmu, terdengar pintu lemari.",
+   "scene": 10,
+   "mulai": 142.325,
+   "selesai": 144.517
+  },
+  {
+   "teks": "Pelan.",
+   "scene": 10,
+   "mulai": 145.531,
+   "selesai": 145.893
+  },
+  {
+   "teks": "Menutup.",
+   "scene": 10,
+   "mulai": 146.929,
+   "selesai": 147.272
+  },
+  {
+   "teks": "Ponselmu bergetar di genggaman.",
+   "scene": 11,
+   "mulai": 148.285,
+   "selesai": 149.968
+  },
+  {
+   "teks": "Foto ketiga.",
+   "scene": 11,
+   "mulai": 150.905,
+   "selesai": 151.599
+  },
+  {
+   "teks": "Lorong ini.",
+   "scene": 11,
+   "mulai": 152.607,
+   "selesai": 153.074
+  },
+  {
+   "teks": "Punggungmu.",
+   "scene": 11,
+   "mulai": 154.581,
+   "selesai": 155.119
+  },
+  {
+   "teks": "Diambil dari jarak yang sangat dekat.",
+   "scene": 11,
+   "mulai": 156.072,
+   "selesai": 157.727
+  },
+  {
+   "teks": "Padahal tidak ada siapa pun di lorong ini selain kamu.",
+   "scene": 11,
+   "mulai": 158.753,
+   "selesai": 161.22
+  },
+  {
+   "teks": "Kamu berhenti.",
+   "scene": 12,
+   "mulai": 162.322,
+   "selesai": 163.05
+  },
+  {
+   "teks": "Napasmu tertahan.",
+   "scene": 12,
+   "mulai": 164.074,
+   "selesai": 164.996
+  },
+  {
+   "teks": "Di layar, nomor itu sedang mengetik.",
+   "scene": 12,
+   "mulai": 165.913,
+   "selesai": 167.763
+  },
+  {
+   "teks": "Satu pesan baru.",
+   "scene": 12,
+   "mulai": 168.797,
+   "selesai": 169.608
+  },
+  {
+   "teks": "Hanya tiga kata.",
+   "scene": 12,
+   "mulai": 170.499,
+   "selesai": 171.337
+  },
+  {
+   "teks": "Jangan lihat ke belakang.",
+   "scene": 13,
+   "mulai": 172.251,
+   "selesai": 173.448
+  }
+ ],
+ "scenes": [
+  {
+   "adegan": "kunci",
+   "teks_layar": "Dari nomor yang sudah mati",
+   "mulai": 1.102,
+   "selesai": 14.154
+  },
+  {
+   "adegan": "riwayat",
+   "teks_layar": "Pesan terakhirnya, dua tahun lalu",
+   "mulai": 15.13,
+   "selesai": 34.389
+  },
+  {
+   "adegan": "foto1",
+   "teks_layar": "Satu foto baru",
+   "mulai": 35.395,
+   "selesai": 43.808
+  },
+  {
+   "adegan": "dari_lemari",
+   "teks_layar": "Diambil dari dalam lemari",
+   "mulai": 44.837,
+   "selesai": 55.342
+  },
+  {
+   "adegan": "lemari",
+   "teks_layar": "Persis seperti di foto",
+   "mulai": 56.346,
+   "selesai": 71.868
+  },
+  {
+   "adegan": "senter",
+   "teks_layar": "Kosong",
+   "mulai": 72.947,
+   "selesai": 87.409
+  },
+  {
+   "adegan": "foto2",
+   "teks_layar": "Foto kedua",
+   "mulai": 88.478,
+   "selesai": 98.771
+  },
+  {
+   "adegan": "kolong",
+   "teks_layar": "Diambil dari bawah ranjang",
+   "mulai": 99.701,
+   "selesai": 109.351
+  },
+  {
+   "adegan": "panggil",
+   "teks_layar": "Memanggil Raka",
+   "mulai": 110.33,
+   "selesai": 119.441
+  },
+  {
+   "adegan": "dering",
+   "teks_layar": "Dari bawah ranjangmu",
+   "mulai": 120.407,
+   "selesai": 127.126
+  },
+  {
+   "adegan": "lorong",
+   "teks_layar": "Rumah kembali sunyi",
+   "mulai": 128.138,
+   "selesai": 147.272
+  },
+  {
+   "adegan": "foto3",
+   "teks_layar": "Dari jarak yang sangat dekat",
+   "mulai": 148.285,
+   "selesai": 161.22
+  },
+  {
+   "adegan": "mengetik",
+   "teks_layar": "Sedang mengetik",
+   "mulai": 162.322,
+   "selesai": 171.337
+  },
+  {
+   "adegan": "akhir",
+   "teks_layar": "Jangan lihat ke belakang",
+   "mulai": 172.251,
+   "selesai": 173.448
+  }
+ ]
+}
