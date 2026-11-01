@@ -1,0 +1,128 @@
+# Render satu film Motion Reel di GitHub Actions: potongan dirender paralel lalu disambung.
+# Narasi (audio/vo.flac + narasi.json) dibuat di laptop dengan tools/buat_reel.py, jadi tidak ada
+# API key di sini. Jalankan dari laptop: python tools/buat_reel.py cloud reels/<film>
+
+name: Render reel
+
+on:
+  workflow_dispatch:
+    inputs:
+      film:
+        description: Folder film, mis. horor-nomor-lama
+        required: true
+      detik_per_potongan:
+        description: Panjang tiap potongan (detik). Lebih kecil = lebih banyak job paralel (maks 20).
+        default: "8"
+
+permissions:
+  contents: read
+
+env:
+  FILM: ${{ inputs.film }}
+  MOTION_REEL_SKILL: ${{ github.workspace }}/skill
+
+jobs:
+  siapkan:
+    name: Skor, SFX, bagi potongan
+    runs-on: ubuntu-latest
+    outputs:
+      potongan: ${{ steps.bagi.outputs.potongan }}
+      format: ${{ steps.bagi.outputs.format }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cek nama film
+        run: |
+          [[ "$FILM" =~ ^[A-Za-z0-9._-]+$ && -f "$FILM/index.html" ]] || { echo "Film '$FILM' tidak ada di repo"; exit 1; }
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: astral-sh/setup-uv@v6
+      - name: Pasang ffmpeg dan Chromium
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+          npm ci
+          npx playwright install --with-deps chromium
+      - name: Skor dan SFX
+        run: |
+          uv run "$FILM/audio/score.py"
+          node skill/scripts/sfx.mjs "$FILM"
+      - name: Bagi potongan
+        id: bagi
+        env:
+          PER: ${{ inputs.detik_per_potongan }}
+        run: node ci/bagi.mjs "$FILM" "$PER" | tee -a "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: audio
+          retention-days: 1
+          path: |
+            ${{ env.FILM }}/beats.json
+            ${{ env.FILM }}/audio/music.wav
+            ${{ env.FILM }}/audio/sfx.wav
+
+  render:
+    name: Render ${{ matrix.potongan.label }}
+    needs: siapkan
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        potongan: ${{ fromJSON(needs.siapkan.outputs.potongan) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Pasang ffmpeg dan Chromium
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+          npm ci
+          npx playwright install --with-deps chromium
+      - uses: actions/download-artifact@v4
+        with:
+          name: audio
+          path: ${{ env.FILM }}
+      - name: Render potongan
+        env:
+          A: ${{ matrix.potongan.a }}
+          B: ${{ matrix.potongan.b }}
+          I: ${{ matrix.potongan.i }}
+          FMT: ${{ needs.siapkan.outputs.format }}
+        run: |
+          node skill/scripts/render.mjs --film "$FILM" --format "$FMT" --video-only --fps 30 --workers 4 --range "$A:$B"
+          mkdir -p potongan
+          mv out/"$FILM"/range_*.mp4 "potongan/$(printf %03d "$I").mp4"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: potongan-${{ matrix.potongan.i }}
+          retention-days: 1
+          path: potongan/
+
+  gabung:
+    name: Sambung, mix, encode
+    needs: render
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Pasang ffmpeg
+        run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+      - uses: actions/download-artifact@v4
+        with:
+          name: audio
+          path: ${{ env.FILM }}
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: potongan-*
+          merge-multiple: true
+          path: potongan
+      - name: Sambung dan mix
+        run: node ci/gabung.mjs "$FILM" potongan
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reel
+          retention-days: 3
+          path: out/${{ env.FILM }}/reel.mp4

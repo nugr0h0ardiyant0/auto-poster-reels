@@ -1,0 +1,86 @@
+{
+ "sidik": "fb5b47bb4f355b421eb5178dcc4c693f239cd53a",
+ "judul": "Pesan dari Nomor Lama",
+ "durasi": 28.57,
+ "awal": 1.0,
+ "akhir_suara": 25.569,
+ "kalimat": [
+  {
+   "teks": "Pesan itu datang tengah malam.",
+   "scene": 0,
+   "mulai": 1.096,
+   "selesai": 2.681
+  },
+  {
+   "teks": "Dari nomor yang sudah dua tahun tidak aktif.",
+   "scene": 0,
+   "mulai": 3.782,
+   "selesai": 5.855
+  },
+  {
+   "teks": "Isinya cuma satu foto.",
+   "scene": 0,
+   "mulai": 6.961,
+   "selesai": 8.312
+  },
+  {
+   "teks": "Kamar tidurmu.",
+   "scene": 0,
+   "mulai": 9.302,
+   "selesai": 10.173
+  },
+  {
+   "teks": "Foto itu diambil dari sudut yang tidak mungkin.",
+   "scene": 1,
+   "mulai": 11.221,
+   "selesai": 13.573
+  },
+  {
+   "teks": "Dari dalam lemari, dengan pintu sedikit terbuka.",
+   "scene": 1,
+   "mulai": 14.567,
+   "selesai": 17.368
+  },
+  {
+   "teks": "Lalu ponselmu bergetar lagi.",
+   "scene": 2,
+   "mulai": 18.339,
+   "selesai": 19.821
+  },
+  {
+   "teks": "Satu pesan baru.",
+   "scene": 2,
+   "mulai": 20.775,
+   "selesai": 21.567
+  },
+  {
+   "teks": "Hanya tiga kata.",
+   "scene": 2,
+   "mulai": 22.573,
+   "selesai": 23.411
+  },
+  {
+   "teks": "Jangan lihat ke belakang.",
+   "scene": 2,
+   "mulai": 24.414,
+   "selesai": 25.353
+  }
+ ],
+ "scenes": [
+  {
+   "teks_layar": "Dari nomor yang sudah mati",
+   "mulai": 1.096,
+   "selesai": 10.173
+  },
+  {
+   "teks_layar": "Diambil dari sudut yang mustahil",
+   "mulai": 11.221,
+   "selesai": 17.368
+  },
+  {
+   "teks_layar": "Jangan lihat ke belakang",
+   "mulai": 18.339,
+   "selesai": 25.353
+  }
+ ]
+}

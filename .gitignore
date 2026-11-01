@@ -1,0 +1,7 @@
+node_modules/
+out/
+potongan/
+# Dibuat ulang di CI: skor, SFX, mix, dan grid ketukan. Narasi disimpan sebagai audio/vo.flac.
+*/audio/*.wav
+*/audio/narasi/
+*/beats.json
